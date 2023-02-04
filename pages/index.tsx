@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           <Github />
           <p>Star on GitHub</p>
         </a>
-        <h1 className="sm:text-5xl text-3xl max-w-2xl font-bold text-slate-900">
+        <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
           Dear AIbby
         </h1>
         <p className="text-slate-500 mt-5">Heartfelt Advice From The Soul of a New Machine.</p>

@@ -8,27 +8,27 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Generate your next Twitter bio in seconds."
+            content="Heartfelt Advice From The Soul of a New Machine!"
           />
-          <meta property="og:site_name" content="twitterbio.com" />
+          <meta property="og:site_name" content="dearaibby.com" />
           <meta
             property="og:description"
-            content="Generate your next Twitter bio in seconds."
+            content="Heartfelt Advice From The Soul of a New Machine!"
           />
-          <meta property="og:title" content="Twitter Bio Generator" />
+          <meta property="og:title" content="Dear Aibby" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Twitter Bio Generator" />
+          <meta name="twitter:title" content="Dear Aibby" />
           <meta
             name="twitter:description"
-            content="Generate your next Twitter bio in seconds."
+            content="Heartfelt Advice From The Soul of a New Machine!"
           />
           <meta
             property="og:image"
-            content="https://twitterbio.com/og-image.png"
+            content="https://dearaibby.com/aibby.jpg"
           />
           <meta
             name="twitter:image"
-            content="https://twitterbio.com/og-image.png"
+            content="https://dearaibby.com/aibby.jpg"
           />
         </Head>
         <body>

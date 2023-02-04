@@ -90,9 +90,9 @@ const Home: NextPage = () => {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
-          Dear AIbby
+          dear aibby
         </h1>
-        <p className="text-slate-500 mt-5">Heartfelt Advice From The Soul of a New Machine.</p>
+        <p className="text-slate-500 mt-5">Heartfelt advice from the soul of a new machine.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image

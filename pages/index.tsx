@@ -74,6 +74,7 @@ const Home: NextPage = () => {
   };
 
   return (
+    // <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen  bg-flowers-pattern bg-[length:300px_300px]">
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Dear AIbby</title>
@@ -95,7 +96,7 @@ const Home: NextPage = () => {
           <Image src="/logo.png" width={100} height={100} alt="Aibby" />
         </h1> */}
         <p className="text-slate-200 mt-5">HEARTFELT ADVICE FROM THE SOUL OF A NEW MACHINE</p>
-        <Image src="/demojis.png" width={600} height={100} alt="Aibby" />
+        <Image src="/demojis.png" width={600} height={400} alt="Aibby" />
         <div className="max-w-xl w-full">
           {/* <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -129,7 +130,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-black rounded-xl text-slate-200 font-medium px-4 py-1 sm:mt-10 mt-8 hover:bg-black/80 w-full tracking-tighter"
+              className="bg-black rounded-xl text-slate-200 font-medium px-4 py-1 sm:mt-10 mt-4 hover:bg-black/80 w-full tracking-tighter"
               onClick={(e) => generateAdvice(e)}
             >
               SHOW ME THE WAY

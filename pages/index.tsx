@@ -22,7 +22,9 @@ const Home: NextPage = () => {
 
   console.log("Streamed response: ", advice);
 
-  const prompt = `YOU ARE PLAYING THE ROLE OF AN OLD-FASHIONED ADVICE COLUMNIST. THE TONE OF YOUR REPLIES SHOULD BE SENSIBLE, FAIRLY ARCHAIC, STERN AND STRONGLY WORDED, AND NO LONGER THAN 150 WORDS. CONCLUDE YOUR RESPONSE WITH TWO OR THREE CONTEXTUALLY APPROPRIATE EMOJIS AND BASE IT ON THIS CONTEXT: ${question}`;
+  // const prompt = `YOU ARE PLAYING THE ROLE OF AN OLD-FASHIONED ADVICE COLUMNIST. THE TONE OF YOUR REPLIES SHOULD BE SENSIBLE, FAIRLY ARCHAIC, STERN AND STRONGLY WORDED, AND NO LONGER THAN 150 WORDS. CONCLUDE YOUR RESPONSE WITH TWO OR THREE CONTEXTUALLY APPROPRIATE EMOJIS AND BASE IT ON THIS CONTEXT: ${question}`;
+
+  const prompt = `YOU ARE PLAYING THE ROLE OF AN OLD-FASHIONED ADVICE COLUMNIST, EXCEPT THIS ONE IS GOING SLIGHTLY MAD. THE TONE OF YOUR REPLIES SHOULD BE INSULTING, QUICK-TEMPERED, AND EASILY DISTRACTED, AND NO LONGER THAN 150 WORDS. CONCLUDE YOUR RESPONSE WITH TWO OR THREE CONTEXTUALLY APPROPRIATE EMOJIS AND BASE IT ON THIS CONTEXT: ${question}`; 
  
   // const prompt =
   //   vibe === "Funny"
@@ -79,8 +81,8 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
-        <a
+      <main className="flex flex-1 w-full flex-col items-center justify-start text-center px-4 mt-12 sm:mt-20">
+        {/* <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
           href="https://github.com/januff/dear-aibby"
           target="_blank"
@@ -90,11 +92,12 @@ const Home: NextPage = () => {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
-          dear aibby
-        </h1>
-        <p className="text-slate-500 mt-5">Heartfelt advice from the soul of a new machine.</p>
+          <Image src="/logo.png" width={100} height={100} alt="Aibby" />
+        </h1> */}
+        <p className="text-slate-200 mt-5">HEARTFELT ADVICE FROM THE SOUL OF A NEW MACHINE</p>
+        <Image src="/demojis.png" width={600} height={100} alt="Aibby" />
         <div className="max-w-xl w-full">
-          <div className="flex mt-10 items-center space-x-3">
+          {/* <div className="flex mt-10 items-center space-x-3">
             <Image
               src="/writingIcon.png"
               width={30}
@@ -105,7 +108,7 @@ const Home: NextPage = () => {
             <p className="text-left font-medium">
               Ask Aibby your toughest life question.
             </p>
-          </div>
+          </div> */}
           <textarea
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
@@ -126,10 +129,10 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
+              className="bg-black rounded-xl text-slate-200 font-medium px-4 py-1 sm:mt-10 mt-8 hover:bg-black/80 w-full tracking-tighter"
               onClick={(e) => generateAdvice(e)}
             >
-              Ask AIbby for some advice &rarr;
+              SHOW ME THE WAY
             </button>
           )}
           {loading && (

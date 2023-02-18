@@ -1,4 +1,5 @@
 ## [dearaibby.com](https://www.dearaibby.com/)
+
 <!-- #### Heartfelt advice from the soul of a new machine -->
 
 [![Dear AIbby Demos](./public/dotti.gif)](https://www.askaibby.com)
@@ -16,8 +17,11 @@ Gregâ€™s prompt (see below, left) returned a convincing Dear Abby, but I couldnâ
 
 **INSULTING**, **QUICK-TEMPERED**, **EASILY DISTRACTED** got us a very convincing Dotti, and the last two terms were probably overkill. (Like **SLIGHTLY MAD**, they foreshadow my plans to prompt GPT to footnote poetry in the scholarly style of Charles Kinbote. Stay tuned.) Ultimately Greg was quite taken with the Dotti simulacrum, he thinks she has a real knack for emojis.
 
+#### More notes on Medium: [An Important Reminder About Chat Interfaces In The Wake of ChatGPT](https://joeyanuff-33180.medium.com/an-important-reminder-about-chat-interfaces-in-the-wake-of-chatgpt-5df21342d03d) ####
 
-### @nutlope's Install Notes
+- - -
+
+### [@nutlope's Install Notes](https://github.com/Nutlope/twitterbio)
 
 #### How it works
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3">
+    <footer className="text-center text-xs h-10 sm:h-20 w-full sm:pt-2 pt-4 mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3">
       <div>
         Powered by{" "}
         <a
@@ -11,9 +11,9 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          OpenAI{" "}
+          OpenAI{" "}&
         </a>
-        and{" "}
+        <br></br>
         <a
           href="https://vercel.com/"
           target="_blank"
@@ -23,7 +23,9 @@ export default function Footer() {
           Vercel Edge Functions.
         </a>
       </div>
-      <div className="flex space-x-4 pb-4 sm:pb-0">
+
+
+      <div className="flex space-x-4 pb-0">
         <Link
           href="https://twitter.com/nutlope"
           className="group"

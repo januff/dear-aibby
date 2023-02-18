@@ -201,6 +201,11 @@ const Home: NextPage = () => {
             </motion.div>
           </AnimatePresence>
         </ResizablePanel>
+
+        <div className="px-4 text-xs bg-white py-3 leading-normal text-purple-700 rounded-lg" role="alert">
+          <p>All content generated at Dearaibby.com, including emojis, is presented for entertainment purposes only. It is not intended to replace or substitute for any financial, medical, legal, any other professional advice, or the unsolicited opinions of families, friends, or Twitter reply guys. Under no conditions should you take it seriously.
+          </p>
+        </div>
       </main>
       <Footer />
     </div>

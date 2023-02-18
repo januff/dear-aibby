@@ -4,10 +4,10 @@
 
 [![Dear AIbby Demos](./public/dotti.gif)](https://www.askaibby.com)
 
-The first major UX upgrade I noticed about ChatGPT was its staccato text delivery: whatever ChatGPT was spewing, it was spewing in chunks. The earliest template I saw to get this right was @nutlope’s [AI Twitter Bio demo](https://www.twitterbio.com), which more or less sold me on Next.js for LLM front-ends and Vercel Edge functions for LLM streaming (for the next few experiments at least.)
+The first major UX upgrade I noticed about ChatGPT was its staccato text delivery: whatever ChatGPT was spewing, it was spewing in chunks. The earliest template I saw to get this right was [@nutlope](https://twitter.com/nutlope)’s [AI Twitter Bio demo](https://www.twitterbio.com), which more or less sold me on Next.js for LLM front-ends and Vercel Edge functions for LLM streaming (for the next few experiments at least.)
 
 
-After tweeting the Vercel template, my old Web 1.0 comrade Greg Beato reached out suggesting a perfectly plausible customization. At some point he’d registered the domain name [dearaibby.com](dearaibby.com) and wondered if we could hijack the Vercel demo’s one-question interface to simulate an old-fashioned advice columnist. With ease!
+After tweeting the Vercel template, my old Web 1.0 comrade [Greg Beato](https://twitter.com/gregbeato) reached out suggesting a perfectly plausible customization. At some point he’d registered the domain name [dearaibby.com](dearaibby.com) and wondered if we could hijack the Vercel demo’s one-question interface to simulate an old-fashioned advice columnist. With ease!
 
 [![Dear AIbby Demos](./public/demos.webp)](https://www.askaibby.com)
 

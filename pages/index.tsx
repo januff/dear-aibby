@@ -78,7 +78,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "Dear Aibby, I got big problems. What do I do?"
+              "What is the absolute maximum and bare minimum a person should be willing to do for a Klondike bar?"
             }
           />
 

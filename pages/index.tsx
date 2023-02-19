@@ -84,7 +84,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-black rounded-xl text-slate-200 font-medium px-4 py-1 sm:mt-5 mt-5 hover:bg-black/80 w-full tracking-tighter"
+              className="bg-black rounded-xl text-slate-200 font-medium px-4 py-1 sm:mt-4 mt-4 hover:bg-black/80 w-full tracking-tighter"
               onClick={(e) => generateAdvice(e)}
             >
               SHOW ME THE WAY
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
           )}
           {loading && (
             <button
-              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-5 mt-5 hover:bg-black/80 w-full"
+              className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-4 mt-4 hover:bg-black/80 w-full"
               disabled
             >
               <LoadingDots color="white" style="large" />

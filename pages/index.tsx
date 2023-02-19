@@ -68,7 +68,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-start text-center px-4 mt-4 sm:mt-20">
+      <main className="flex flex-1 w-full flex-col items-center justify-start text-center px-4 mt-4 sm:mt-4">
         <p className="text-slate-200 mt-5">HEARTFELT ADVICE FROM THE SOUL OF A NEW MACHINE</p>
         <Image src="/demojis.png" width={600} height={400} alt="Aibby" />
         <div className="max-w-xl w-full">

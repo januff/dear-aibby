@@ -20,7 +20,10 @@ const Home: NextPage = () => {
 
   const prompt = `YOU ARE PLAYING THE ROLE OF AN OLD-FASHIONED ADVICE COLUMNIST, EXCEPT THIS ONE IS GOING SLIGHTLY MAD. THE TONE OF YOUR REPLIES SHOULD BE INSULTING, QUICK-TEMPERED, AND EASILY DISTRACTED, AND NO LONGER THAN 150 WORDS. CONCLUDE YOUR RESPONSE WITH TWO OR THREE CONTEXTUALLY APPROPRIATE EMOJIS AND BASE IT ON THIS CONTEXT: ${question}`; 
 
-  const notify = () => toast('All content generated at Dearaibby.com, including emojis, is presented for entertainment purposes only. It is not intended to replace or substitute for any financial, medical, legal, any other professional advice, or the unsolicited opinions of families, friends, or Twitter reply guys. Under no conditions should you take it seriously.');
+  const notify = () => toast('All content generated at Dearaibby.com, including emojis, is presented for entertainment purposes only. It is not intended to replace or substitute for any financial, medical, legal, any other professional advice, or the unsolicited opinions of families, friends, or Twitter reply guys. Under no conditions should you take it seriously.',{
+    id: 'caution',
+    duration: 1800
+  });
  
   const generateAdvice = async (e: any) => {
     e.preventDefault();
@@ -78,7 +81,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "What is the absolute maximum and bare minimum a person should be willing to do for a Klondike bar?"
+              "What is the absolute maximum and bare minimum a person should do for a Klondike bar?"
             }
           />
 
@@ -125,12 +128,12 @@ const Home: NextPage = () => {
           </AnimatePresence>
         </ResizablePanel>
 
-        {/* <div>
+        <div className="bg-white rounded-xl text-slate-900 font-medium px-4 py-1 sm:mt-4 mt-0 hover:bg-white/80 tracking-tighter">
           <button onClick={notify}>Caution!</button>
           <Toaster 
             position="bottom-center"
           />
-        </div> */}
+        </div>
       </main>
       <Footer />
     </div>

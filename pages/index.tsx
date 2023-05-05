@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
   const notify = () => toast('All content generated at Dearaibby.com, including emojis, is presented for entertainment purposes only. It is not intended to replace or substitute for any financial, medical, legal, any other professional advice, or the unsolicited opinions of families, friends, or Twitter reply guys. Under no conditions should you take it seriously.',{
     id: 'caution',
-    duration: 1800
+    duration: 4000
   });
  
   const generateAdvice = async (e: any) => {
@@ -128,7 +128,7 @@ const Home: NextPage = () => {
           </AnimatePresence>
         </ResizablePanel>
 
-        <div className="bg-white rounded-xl text-slate-900 font-medium px-4 py-1 sm:mt-4 mt-0 hover:bg-white/80 tracking-tighter">
+        <div className="bg-white rounded-xl text-slate-900 font-medium px-4 py-1 sm:mt-4 mt-0 hover:bg-white/80 tracking-tight">
           <button onClick={notify}>Caution!</button>
           <Toaster 
             position="bottom-center"
